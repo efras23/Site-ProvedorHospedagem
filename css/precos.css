@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.limite-conteudo {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* 1ª Seção - Topo */
+.secao-topo-escuro {
+    height: 100px;
+    background-color: #2f86d6;
+}
+
+    .secao-topo-escuro .container-logo-escuro, .secao-copyright .container-logo-escuro {
+        width: 300px;
+        height: 65px;
+        position: absolute;
+        top: 18px;
+        font-family: 'Verdana';
+    }
+        .secao-topo-escuro .container-logo-escuro img, .secao-copyright .container-logo-escuro img {
+            width: 65px; /* width = height */
+            position: absolute;
+        }
+        .secao-topo-escuro .container-logo-escuro span, .secao-copyright .container-logo-escuro span {
+            line-height: 30px;
+            font-weight: bold;
+            font-size: 27px;
+            position: absolute;
+            top: 7px;
+            left: 75px;
+        }
+        .secao-topo-escuro .container-logo-escuro p, .secao-copyright .container-logo-escuro p {
+            display: inline;
+            position: absolute;
+            bottom: 7px;
+            left: 75px;
+            line-height: 20px;
+            font-size: 13px;
+            color: #ffffff;
+        }
+
+    .secao-topo-escuro .container-links {
+        width: max-content;
+        height: 20px;
+        position: absolute;
+        top: 40px;
+        right: 0px;
+        font-size: 14px;
+    }
+        .secao-topo-escuro .container-links a {
+            font-family: helvetica;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+/* 2ª Seção - TABELA DE PREÇOS */
+.secao-precos {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+    .secao-precos table {
+        width: 1000px;
+        border-collapse: collapse;
+        border: 1px solid #f1f3f7;
+    }
+    .secao-precos .bgcolor-gray {
+        background-color: #f1f3f7;
+    }
+        table td {
+            text-align: center;
+            font-size: 13px;
+            font-family: 'Lucida Sans';
+            height: 50px;
+            border: 1px solid #f1f3f7;
+        }
+            /* bolinha azul */
+            .secao-precos table td .bolinha-azul {
+                width: 15px;
+                height: 15px;
+                background-color: #2f86d6;
+                margin: 0 auto;
+                border-radius: 15px;
+            }
+        .secao-precos .table-head {
+            height: 80px;
+            border-color: #ffffff;
+            /*border-left: 1px solid #ffffff;*/
+        }
+            .secao-precos table .table-head p {
+                font-size: 11px;
+                margin: 0 0 7px 0;
+            }
+            .secao-precos table .table-head h2 {
+                font-family: 'Verdana';
+                font-size: 20px;
+            }
+
+/* 3ª Seção - COPYRIGHT */
+.secao-copyright {
+    height: 190px;
+    padding: 45px;
+    background-color: #2f86d6;
+}
+
+    /* container-logo-escuro definido na 1ª Seção */
+
+    .secao-copyright .container-logo-escuro {
+        position: relative;
+        width: 250px;
+        top: unset;
+        left: 275px;
+        margin: 0 0 10px 0;
+    }
+
+    .secao-copyright .texto-copyright {
+        text-align: center;
+        font-family: 'Verdana';
+        color: #ffffff;
+        font-size: 13px;
+    }
+
+/* 4ª Seção - RODAPÉ */
+.secao-rodape {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 16px 0 0 0;
+    box-sizing: border-box;
+}
+    .secao-rodape p {
+        font-family: 'Lucida Sans';
+        font-size: 13px;
+        height: 17px;
+        text-align: center;
+        font-weight: bold;
+    }
+        .secao-rodape p span {
+            color: #2f86d6;
+        }

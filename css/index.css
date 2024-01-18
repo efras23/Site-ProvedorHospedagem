@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.limite-conteudo {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bgcolor-white {
+    background-color: #ffffff;
+}
+
+/* 1ª Seção - Topo */
+.secao-topo {
+    height: 100px;
+}
+
+    .container-logo {
+        width: 300px;
+        height: 65px;
+        position: absolute;
+        top: 18px;
+    }
+        .container-logo img {
+            width: 65px; /* width = height */
+            position: absolute;
+        }
+        .container-logo span {
+            line-height: 30px;
+            font-weight: bold;
+            font-size: 27px;
+            position: absolute;
+            top: 7px;
+            left: 75px;
+        }
+        .container-logo p {
+            display: inline;
+            position: absolute;
+            bottom: 7px;
+            left: 75px;
+            line-height: 20px;
+            font-size: 16px;
+            color: #2f86d6;
+        }
+
+    .container-links {
+        width: max-content;
+        height: 20px;
+        position: absolute;
+        top: 40px;
+        right: 0px;
+        font-size: 14px;
+    }
+        .container-links a {
+            font-family: helvetica;
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            margin: 10px;
+        }
+
+/* 2ª Seção - Banner */
+.secao-banner {
+    height: 500px;
+    background-color: #2f86d6;
+    position: relative;
+}
+
+    .container-texto-banner {
+        width: 400px;
+        height: 250px;
+        position: absolute;
+        top: 150px;
+        color: #ffffff;
+        font-family: helvetica;
+    }
+
+        .container-texto-banner h2 {
+            margin-top: 15px;
+            font-size: 27px;
+            margin-bottom: 15px;
+        }
+        .container-texto-banner p {
+            font-size: 16px;
+            line-height: 21px;
+        }
+
+    .secao-banner img {
+        width: 400px; /* width=400px, height≈333px */
+        position: absolute;
+        right: 0;
+        top: 83px;
+    }
+
+/* 3ª Seção - LINK TABELA DE PREÇOS (1) */
+.secao-link-tabela-precos-1{
+    height: 120px;
+    background-color: #23303e;
+}
+
+    .secao-link-tabela-precos-1 .limite-conteudo {
+        padding: 35px 0;
+    }
+
+        .secao-link-tabela-precos-1 h3, .secao-link-tabela-precos-1 p {
+            color: #ffffff;
+            font-family: Arial;
+        }
+
+        .secao-link-tabela-precos-1 h3 {
+            font-size: 20px;
+            margin: 0 0 5px 0;
+        }
+
+        .secao-link-tabela-precos-1 p {
+            font-size: 14px;
+        }
+
+        /*link*/
+        .container-tabela-precos-1 {
+            background-color: #2f86d6;
+            border-radius: 7px;
+            display: inline;
+            position: absolute;
+            width: 200px;
+            height: 50px;
+            top: 35px;
+            right: 0;
+        }
+            .container-tabela-precos-1 img {
+                position: absolute;
+                height: 15px;
+                top: 18px;
+                left: 17px;
+            }
+            .container-tabela-precos-1 .tabela-precos {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                color: #ffffff;
+                text-decoration: none;
+                line-height: 20px;
+                font-family: verdana;
+                font-weight: bold;
+                font-size: 13px;
+            }
+
+/* 4ª Seção - SEÇÃO INFORMAÇÕES */
+.secao-informacoes {
+    box-sizing: border-box;
+    padding: 100px 0;
+    height: 500px;
+    font-family: Arial;
+}
+    .secao-informacoes h2 {
+        text-align: center;
+        margin: 5px 0;
+    }
+        .secao-informacoes h2 span {
+            color: #2f86d6;
+        }
+    .secao-informacoes table {
+        position: absolute;
+        bottom: 100px;
+    }
+        .secao-informacoes table thead tr th{
+            height: 40px;
+        }    
+        .secao-informacoes table tbody tr td{
+            height: 50px;
+            text-align: center;
+            font-size: 14px;
+        }
+        .secao-informacoes table img {
+            height: 80px;
+        }
+
+/* 5ª Seção - SEÇÃO DE PLANOS */
+.secao-planos {
+    height: 750px;
+    background-color: #f1f3f7;
+    padding: 100px 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+    .secao-planos h2 {
+        font-size: 23px;
+        text-align: center;
+        margin: 0 0 50px 0;
+    }
+        .secao-planos h2 span {
+            color: #2f86d6;
+        }
+    .secao-planos table {
+        border-radius: 5px;
+        border-collapse: collapse;
+        box-shadow: 0px 0px 15px 10px #92b8db;
+    }
+        .secao-planos .bgcolor-gray {
+            background-color: #f1f3f7;
+        }
+        .secao-planos table img {
+            width: 100px;
+        }
+        .secao-planos table thead th {
+            padding: 20px 0 3px 0;
+        }
+        .secao-planos table tbody td {
+            text-align: center;
+            font-family: 'Lucida Sans';
+            font-size: 14px;
+            padding: 15px;
+        }
+            .secao-planos table tbody td span {
+                color: #888888;
+                font-size: 13px;
+            }        
+        .secao-planos .padding-top-text-gray {
+            padding-top: 0;
+            font-size: 13px;
+        }
+        /* bordas */
+        .secao-planos .border-right {
+            border-right: 2px solid #eeeeee;
+        }
+
+/* 6ª Seção - LINK TABELA DE PREÇOS (2) */
+.secao-link-tabela-precos-2{
+    height: 120px;
+    background-color: #2f86d6;
+}
+
+    .secao-link-tabela-precos-2 .limite-conteudo {
+        padding: 35px 0;
+    }
+
+        .secao-link-tabela-precos-2 h3, .secao-link-tabela-precos-2 p {
+            color: #ffffff;
+            font-family: Arial;
+        }
+
+        .secao-link-tabela-precos-2 h3 {
+            font-size: 20px;
+            margin: 0 0 5px 0;
+        }
+
+        .secao-link-tabela-precos-2 p {
+            font-size: 14px;
+        }
+
+        /*link*/
+        .container-tabela-precos-2 {
+            background-color: #23303e;
+            border-radius: 7px;
+            display: inline;
+            position: absolute;
+            width: 200px;
+            height: 50px;
+            top: 35px;
+            right: 0;
+        }
+            .container-tabela-precos-2 img {
+                position: absolute;
+                height: 15px;
+                top: 18px;
+                left: 17px;
+            }
+            .container-tabela-precos-2 .tabela-precos {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                color: #ffffff;
+                text-decoration: none;
+                line-height: 20px;
+                font-family: verdana;
+                font-weight: bold;
+                font-size: 13px;
+            }
+
+/* 7ª Seção - CONTATO */
+.secao-contato {
+    height: 340px;
+    box-sizing: border-box;
+    padding: 160px 0 0 0;
+}
+    .secao-contato .container-logo {
+        width: 300px;
+        height: 65px;
+        position: absolute;
+        top: 54px;
+        left: 250px;
+    }
+        .secao-contato .container-logo img {
+            width: 65px; /* width = height */
+            position: absolute;
+        }
+        .secao-contato .container-logo span {
+            line-height: 30px;
+            font-weight: bold;
+            font-size: 27px;
+            position: absolute;
+            top: 7px;
+            left: 75px;
+        }
+        .secao-contato .container-logo p {
+            display: inline;
+            position: absolute;
+            bottom: 7px;
+            left: 75px;
+            line-height: 20px;
+            font-size: 16px;
+            color: #2f86d6;
+        }
+    .secao-contato .contato-paragrafo {
+        text-align: center;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+
+/* 8ª Seção - EFRAIM COSTA */
+.secao-rodape {
+    background-color: #f1f3f7;
+    height: 50px;
+    padding: 16px 0 0 0;
+    box-sizing: border-box;
+}
+    .secao-rodape p {
+        font-family: 'Lucida Sans';
+        font-size: 13px;
+        height: 17px;
+        text-align: center;
+        font-weight: bold;
+    }
+        .secao-rodape p span {
+            color: #2f86d6;
+        }
